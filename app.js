@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 
 app.use(express.json())
 
-//////ROUTES
+/////////////ROUTES
 
 ///AUTH
 const authRoutes = require('./routes/authRoutes')
